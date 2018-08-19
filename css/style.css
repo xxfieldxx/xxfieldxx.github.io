@@ -1,0 +1,485 @@
+* {
+    margin:0;padding:0;
+}
+a {
+    text-decoration: none;
+    color:#000;
+}
+a:hover {
+    color:#000;
+}
+ul li,ol li {
+    list-style:none;
+}
+.clearfix:after {
+    display:block;
+    content:'';
+    clear:both;
+    visibility:hidden;
+}
+.clearfix {
+    zoom:1;
+}
+/*引入字体文件*/
+@font-face {
+    font-family: HelveticaNeue-Light;
+    src: url('../asset/fonts/HelveticaNeue-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: HelveticalNeue_md;
+    src: url('../asset/fonts/HelveticaNeue-Medium.ttf') format('truetype');
+}
+html,body{  
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+.container {
+    width:100%;
+    height:100%;
+}
+.container .header {
+    z-index:10;
+    width:100%;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top:30px;
+    padding-left:40px;
+}
+
+.container .header p {
+    font-family: HelveticaNeue-Light;
+    padding-left:20px;
+}
+.name {
+    font-size: 24px;
+    color: #282828;
+}
+.work {
+    font-size: 24px;
+    color: #282828;
+    opacity: 0.4;
+}
+.container .header div {
+    float:left;
+}
+.container ol  {
+    padding-top:20px;
+    clear: both;
+}
+.container ol a {
+    display:inline-block;
+    position:relative;
+}
+.container ol a img {
+    display:inline-block;
+}
+.container ol a::before {
+    content:'';
+    display:block;
+    position:absolute;
+    left:0;top:0;
+    background:#fff;
+    opacity: 0.8;
+    width:100%;
+    height:100%;
+    transition:opacity 0.4s ease;
+    -webkit-transition:opacity 0.4s ease;
+}
+.container ol a:hover::before {
+    opacity: 0;
+    
+}
+.container ol li {
+    float:left;
+    padding-right:20px;
+    background:#fff;
+
+}
+
+.logo img {
+    width:56px;
+    height:56px;
+}
+.container ol li img {
+        height:16px;
+    }
+.container ol li:first-child {
+    margin-top:-1px;
+}
+.container ol li:first-child img {
+        height:18px;
+    }
+@media only screen and (max-width:415px) {
+    .container .header {
+        padding-top:20px;
+        padding-left:20px;
+        font-family: HelveticalNeue_md;
+    }
+    .container .header p {
+    padding-left:15px;
+    font-family: HelveticaNeue-Light;
+    }
+    .container ol {
+        position:absolute;
+        top:20px;
+        right:0;
+        padding-top:10px;
+    }
+    .container ol li:first-child {
+        margin-top:3px;
+    }
+    .container ol li {
+        margin-top:5px;
+        padding-right:15px;
+    }
+    .container ol li:last-child {
+        margin-right:5px;
+    }
+    .container ol li img {
+        height:16px;
+    }
+    .container ol li:first-child img {
+        height:18px;
+    }
+    .name {
+        font-size: 18px;
+        color: #282828;
+        height:22px;
+        line-height:21px;
+    }
+    .work {
+        font-size: 18px;
+        color: #282828;
+        opacity:0.4;
+        height:21px;
+        line-height:21px;
+    }
+    .logo img {
+        width:42px;
+        height:42px;
+    }
+    #play {
+        width:60px;height:60px;
+    }
+}
+.container ul li {
+    /*text-align:center;*/
+    width:20%;
+    height:70%;
+    position:absolute; 
+    cursor:pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.title {
+    font-family: HelveticaNeue-Light;
+    width:60%;
+    position:absolute;
+    bottom:3%;
+    right:-91%;
+}
+
+.title p  {
+    text-align:left;
+    margin-bottom:14px;
+    font-size:19px;
+    color: #282828;
+}
+.two p,.three p,.four p {
+    margin-bottom:-10px;
+}
+
+.title p span {
+    color: #282828;
+    font-size:14px;
+    padding-left:16px;
+    opacity: 0.5;
+}
+.title a {
+    font-family: HelveticalNeue_md;
+    display:block;
+    width:100px;
+    height:30px;
+    border:1px solid #1A66FF;
+    color:#1A66FF;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    text-align:center;
+    line-height:30px;
+    font-size:12px;
+    font-weight: bold;
+    box-shadow: 0 2px 20px rgba(41, 99, 255, 0);
+}
+.title a:hover {
+    transition: all 0.25s ease;
+    -webkit-transition:all 0.25s ease;
+    -moz-transition:all 0.25s ease;
+    box-shadow: 0 2px 20px rgba(41, 99, 255, 1);
+    background: #1A66FF;
+    color: #fff;
+}
+@media only screen and (max-width:415px) {
+    .title {
+        position:absolute;
+        bottom:46px;
+        left:27px;
+        width:80%;
+    }
+    .title p {
+        font-size: 14px;
+        color: #282828;
+        margin-bottom:11px;
+    }
+    .title p span {
+        font-size: 10.8px;
+        color: #282828;
+    }
+    .title a {
+        font-family: HelveticalNeue_md;
+        width:90px;
+        height:30px;
+        font-size:10px;
+        transform:scale(0.8);
+        -webkit-transform:scale(0.8);
+        -moz-transform:scale(0.8);
+        transform-origin: left top;
+        -webkit-transform:scale(0.8);
+        -moz-transform:scale(0.8);
+    }
+}
+.container ul {
+    width:100%;
+    height:100%;
+    -webkit-transform:translate(40%,0);
+    -moz-transform:translate(40%,0);
+    -ms-transform:translate(40%,0);
+    -o-transform:translate(40%,0);
+    transform:translate(40%,0);
+}
+@media only screen and (max-width:415px) {
+    .container ul li {
+        width:60%;
+    }
+    .container ul {
+        transform:translate(20%,0);
+        -webkit-transform:translate(20%,0);
+        -moz-transform:translate(20%,0);
+    }
+}
+.container ul li.one {
+
+    background:url(../asset/images/screen-1@3x.png) no-repeat center center;
+    background-size:contain;
+}
+.container ul li.two {
+    background:url(../asset/images/screen-2@3x.png) no-repeat center center;
+    background-size:contain;
+    /*transform:translate(400px,0) scale(0.5);*/
+}
+.container ul li.three {
+    background:url(../asset/images/screen-3@3x.png) no-repeat center center;
+    background-size:contain;
+    /*transform:translate(700px,0) scale(0.5);*/
+}
+.container ul li.four {
+    background:url(../asset/images/wireframe@3x.png) no-repeat center center;
+    background-size:contain;
+}
+.connect {
+    margin-top:40%;
+    padding-left:18%;
+}
+.connect a img {
+    height:10px;
+}
+.connect a:first-child img {
+    height:12px;
+}
+.connect  a {
+    display:inline-block;
+    margin-right:5%;
+    position:relative;
+}
+.connect a::before {
+    width:100%;
+    height:100%;
+    content:'';
+    display:block;
+    position:absolute;
+    left:0;top:0;
+    background:#fff;
+    opacity: 0.8;
+    transition:opacity 0.4s ease;
+    -webkit-transition:opacity 0.4s ease;
+    -moz-transition:opacity 0.4s;
+}
+.connect a:hover::before {
+    opacity: 0;
+    
+}
+@media only screen and (max-width:415px) {
+    .connect {
+        margin-top:45%;
+        margin-left:0%;
+    }
+    .connect img {
+        height:10px;
+    }
+    .one .title {
+    font-family: HelveticaNeue-Light;
+    width:60%;
+    position:absolute;
+    bottom:-15%;
+    right:-91%;
+    }
+    .two .title,.three .title ,.four .title {
+        bottom:-10%;
+    }
+}
+
+/*iphone 5 导航条适配*/
+
+@media only screen and (max-width:375px) {
+    .title {
+        left:24px;
+    }
+    .container .header {
+        padding-top:20px;
+        padding-left:20px;
+        font-family: HelveticalNeue_md;
+    }
+    .container .header p {
+    padding-left:15px;
+    font-family: HelveticaNeue-Light;
+    }
+    .container ol {
+        position:absolute;
+        top:10px;
+        right:0;
+        padding-top:10px;
+    }
+    .container ol li:first-child {
+        margin-top:5px;
+    }
+    .container ol li {
+        margin-top:5px;
+        padding-right:15px;
+    }
+    .container ol li:last-child {
+        margin-right:5px;
+    }
+    .container ol li img {
+        height:12px;
+    }
+    .container ol li:first-child img {
+        height:14px;
+    }
+    .name {
+        font-size: 14px;
+        color: #282828;
+        height:15px;
+        line-height:15px;
+    }
+    .work {
+        font-size: 14px;
+        color: #282828;
+        opacity:0.4;
+        height:15px;
+        line-height:15px;
+    }
+    .logo img {
+        width:30px;
+        height:30px;
+    }
+    .one .title {
+    font-family: HelveticaNeue-Light;
+    width:60%;
+    position:absolute;
+    bottom:-20.2%;
+    right:-91%;
+    }
+}
+.iframe {
+    z-index:-1;
+    width:75.5%;
+    /*height:77.6%;*/
+/*    transform: translate(16%,13%);
+    -webkit-transform: translate(16%,13%);
+    -moz-transform: translate(16%,13%);
+    background:rgba(255,255,255,0);*/
+    margin:auto;
+    position:absolute;
+    right:1px;top:-14px;bottom:-5px;left:0;
+}
+iframe {
+    width:100%;height:100%;
+}
+/*iframe {
+    width:89%;
+    height:78%;
+    transform: translate(6%,13%);
+    -webkit-transform: translate(6%,13%);
+    -moz-transform: translate(6%,13%);
+    background:rgba(255,255,255,0);
+}*/
+@media only screen and (max-width:415px) {
+    .iframe {
+    width: 78.5%;
+    /*height: 95.6%;*/
+ /*   transform: translate(16%,13%);
+    -webkit-transform: translate(0.5%,-2%);
+    -moz-transform: translate(16%,13%);
+    background: rgba(255,255,255,0);*/
+}
+}
+
+@media only screen and (max-width:769px) and (min-width:415px) {
+    .container ul li {
+        width:20%;
+    }
+    .container ul {
+        transform:translate(40%,0);
+        -webkit-transform:translate(40%,0);
+        -moz-transform:translate(40%,0);
+    }
+    .iframe {
+        width:90%;
+        height:80%;
+        transform: translate(5%,11%);
+        -webkit-transform: translate(5%,11%);
+        -moz-transform: translate(5%,11%);
+    }
+    .connect {
+    margin-top:180%;
+    padding-left:13%;
+    }
+    .title {
+        bottom:20%;
+    }
+}
+#play {
+    display:block;
+    margin:auto;
+    position: absolute;
+    right:0;bottom:0;left:0;top:0;
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -ms-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+#play:hover {
+    opacity:0.8;
+}
+@media only screen and (min-width:1921px) {
+    .iframe {
+        width:71%;
+    }
+}
