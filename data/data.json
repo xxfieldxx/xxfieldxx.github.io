@@ -1,0 +1,54 @@
+[
+    {"zh":[
+            {"title":{
+                            "h1":"Designing XScreen",
+                            "name":["Haotian Chen","Mar. 2017"],
+                            "behance":"项目整体展示请前往Behance查看：<a href=\"https://www.behance.net/gallery/50967421/XScreen\" target=\"_blank\">Behance</a>"
+                        }},
+            {"h2":["一些背景","目标","视觉一致性","卡片设计","动效设计"]},
+            {"p":[
+                            "XScreen是乐蛙科技的核心项目之一，是为安卓系统量身打造的左屏（又名 search screen、widget screen）体验。通过用户自定义卡片的方式，在左屏打造一个内容的快速入口，同时提供快速搜索功能。在过去的一年中，我们成功地与印度一些著名的手机厂商形成了合作，将XScreen作为出厂应用内置在手机中，客户包括 Karbonn, Zen, Intex, Celkon, Himax等。我在此次项目中负责XScreen的全部UI设计，交互设计，原型制作，品牌宣传等一系列工作。</br></br>我们同时上线了一个GooglePlay版本（非最新版本并且由于作为第三方app缺乏部分功能），你可以在此处下载体验：<a href=\"https://play.google.com/store/apps/details?id=com.reva.xscreen\">GooglePlay</a>",
+                        "在这个UI视觉越来越简约和扁平化的时代，为UI注入品牌调性就成了很重要的一环。这次XScreen的设计是一次从无到有的过程，需要我去找到一种合适的视觉语言，打造出属于XScreen的品牌性，而不仅仅是视觉上的好看。设计的过程中我的脑海里始终在提醒着自己一件事：是什么使得XScreen成为XScreen？最终我为自己定下了几个目标：",
+                        "XScreen作为手机厂商的出厂内置应用，视觉上首先需要做到的就是和OS本身保持视觉一致性。作为左屏，应该很好地融入整体系统中，而不是从左边拉出来另外一番天地。由于需要用户可自定义内容，卡片式设计就成了很好的模式，不仅很好的区分了各个板块内容，而且可以自由调整各个卡片的顺序，同时又给用户一种“便利贴”的感觉，从形式和功能上看都很不错。",
+                        "易辨性（legibility）是UI字体排版中最重要的特性，因为UI作为人机界面，更多的是功能性上的支持，而不仅仅是为了美观，所以在选择字体时候需要尤其考究。不是所有的字体最初被设计来都是容易阅读的，也不是所有的字体都适合于在屏幕上显示。近年来各大厂都在针对字体在小屏幕上的显示来优化字体的设计，比如苹果的苹方系列。综合手机本身的OS，我选择了Roboto这款谷歌原生字体，Roboto不仅拥有现代化的无衬线外观，同时经过优化，在手机小屏幕上也具有很好的可辨性。",
+                        "因为卡片本身为了提高内容可读性，使用了大面积的白色，导致界面或有些单调，而且不具有品牌识别性，我选择了一份从亮黄到深红的色盘，作为卡片的点缀同时，区分了不同卡片，开始打造品牌的元素，而明亮积极地颜色给予了用户情感上的温暖。",
+                        "留白是视觉中重要的一环，它不仅仅让画面更加透气，同时又为设计带来了强调，层级，可读性，张力。工作中很多时候，产品经理或者老板为了最大限度的展示内容(内容最大化)，会要求设计师不断去压缩留白空间，适当的压缩是可以的，但是作为设计师，一定要把握好这个度，去努力寻找一个平衡点。只有设计师才能站在专业的角度理解问题，尝试向你的老板解释为什么留白是重要的一环也是很有必要的,给界面留下呼吸的空间是十分重要的，他成功的为我们的用户创造了关注点。",
+                        "元素之间的距离也是很值得考究的一个细节，不同分组的元素之间应该用不用的间距，从而创造出合理的视觉层级。设计是一个过程，关乎于寻找和展现视觉内容中的相似和区别。",
+                        "我使用了一套特别的切图和注释方法来产生高保真的spec给开发部门，并且接下来一直保持沟通和交流，以及最后的验收，来保证像素完美级的设计实现。通过sketch measure插件生成动态的html文件，可自由查看各元素信息间距等。",
+                        "若有必要时，也可以产出详细的标注稿，下面展示的是一些卡片布局的细节：",
+                        "动效的设计需要考虑到机器性能等因素，由于我们这次的客户主要是印度手机厂商，低端机偏多，性能普遍不高，所以动效的设计以简洁为主，保证系统的流畅度。下面是一些设计过程中的动效概念稿件："
+                        ]},
+            {"li":["- 设计一套品牌配色","- 贴合手机系统的样式，使XScreen作为launcher的一部分不显得突兀","- 内容最大化","- 使用一些引导用户并增加愉悦性的动效设计"]}
+        
+    ]},
+    {"en":[
+            {"title":{
+                            "h1":"Designing XScreen",
+                            "name":["Haotian Chen","Mar. 2017"],
+                            "behance":"For a overall project showcase, please visit：<a href=\"https://www.behance.net/gallery/50967421/XScreen\" target=\"_blank\">Behance</a>"   
+                        }},
+            {"h2":["Background","Goals","Visual consistency","Card design details","Interaction animation"]},
+            {"p":[
+                            "XScreen is one of the core projects of LeWa Tech, and as a tailored left-screen （or so called Search Screen & Widget Screen）experience. By means of customising cards，we create a quick entrance for content on the left-screen as well as searching function. In the past year，we cooperated with famous mobile-phone companies in India including Karbonn, Zen, Intex, Celkon, Himax, to put XScreen in the factory default settings. I was responsible for the whole UI design, UX design, prototyping and some brand communication work.</br></br>We also shipped a GooglePlay version（although not the newest version and lack of some features），which you can download it from here：<a href=\"https://play.google.com/store/apps/details?id=com.reva.xscreen\">GooglePlay</a>",
+                            "With the trending of flat UI & minimalist UI，it becomes a essential function for UI to embed a brand essence in the APP. The designing of XScreen is a progress all growing out of nothing，which needing me to find out a proper visual language for it, to forge the brand essence of it that is more than just visual aesthetics. A question that I think has been in the mind of me at one point is: “What makes XScreen, XScreen?” In this context,my goals were to：",
+                            "As a factory default APP，the first thing to achieve about appearance is the visual consistency with the system OS. As a left-screen，it should be integrated well with the mobile-phone OS，other than pulling out a \"new world\" from the left. For needing of user-customising content，card-pattern became a good choice，which did a good job in not only differentiating content，but also arranging it，what's more, to give out a metaphor of sticker. It has both brilliant form and useful function.",
+                            "legibility is one of the most important traits among UI typography layout. As human computer interface, UI plays a role of functional supporting which is not just for the aesthetics, so it becomes more and more worthy pondering. Not all typefaces are created with legibility as a primary design function, and not all typefaces are created to display on the screen. Now a few years, increasing companies are optimizing their fonts to display on screens, such as PingFang font. Considering of integrating with the mobile-phone OS, I make a decision of using Roboto font, which is the default font of Android. Roboto has a modernized appearance，as well as a optimized legibility on samll screen.",
+                            "Because of using white cards to improve the readibility of content, it become a bit dull and general when it comes to brand identity.I designed a suit of brand color palette, as a decorative element, to differentiate a wide range of cards and start the building of brand identity.The beautiful warming color also engages the deep motivation of our users .",
+                            "Space is a necessary part of visual communication, which makes the layout breathing, it adds emphasis, hierarchy, readibility, drama and tension to the design. At work, PMs along with boss may aks you to compress the space between UI elements to push the content envelope to a maximized extent. As a designer, wo should seek for a balance point between compression and space breathing. Only from the point of professional designer, can we have a deep understanding of the importance of space.It is our responsibility to explain the inner basis of space in design to other people including boss and PMs, and argue for our opinions, to make the product more glorious.",
+            
+                            "Micro white space is the term used to describe the smaller elements of white space in a particular design. It’s the space between letters, words, smaller elements. Tweaking the amount of space between your smallest elements will help them to become more noticeable and organized. That creates a feeling of visual harmony. Design is the process of looking for and showing off the similarities and differences inherent in the content of visual design.",
+            
+                                "I used a very thorough set of specification system to deliver high fidelity mock-ups and specs to engineering. Then I keep communicating with them to settle down the final interface. All layout surfaces was checked and aligned to the pixel to deliver the cleanest experience possible. By using Sketch plugin Measure, I deliver dynamic html spec documents to engineers , which showing all details of the product. ",
+                                "In times of real need, I also have a method to spec out  the detailed mockup. Below are some excerpt from these specs:",
+                                "In consideration of mobile-phone performance from our India clients, I designed a set of animation that focus on simplicity and fluency. Below are some animation cocnept along the deisgn progress："
+            
+            
+                        ]},
+        {"li":[
+          "- Design a suit of brand color palette",
+          "- Fit the visual style to mobile-phone OS, making XScreen integrated with system launcher" ,
+          "- Push the content envelope",
+          "- Design interaction animation for guiding and engaging the users"]}  
+        
+    ]}
+]
