@@ -104,6 +104,7 @@ $(function() {
         hammerNum++;
         $('ul li').eq(hammerNum).triggerHandler('click');
         if (hammerNum >= 5) {
+            //修改成5
             hammerNum = 5;
         }
     });
