@@ -207,7 +207,7 @@ body {
 
 .title {
     font-family: HelveticaNeue-Light;
-    width: 60%;
+    /*width: 60%;*/
     position: absolute;
     bottom: 3%;
     right: -91%;
